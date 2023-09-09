@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">Notes App</string>
+    <string name="app_name">Notas App</string>
+    <string name="app_logo">App Logo</string>
+
+    <string name="add_note_action">Agregar Nota</string>
+    <string name="note_icon">Icono Nota</string>
+    <string name="create_your_note">Agrega una nota!!</string>
+    <string name="back_arrow">Flecha Regresar</string>
+    <string name="save_note_action">Accion Guardar Nota</string>
+    <string name="add_note">Agregar</string>
+    <string name="save_note">Guardar</string>
+    <string name="detail_note">Detalle de Nota</string>
+    <string name="name">Nombre: </string>
+    <string name="enter_name">Introduce Nombre</string>
+    <string name="description">Descripción: </string>
+    <string name="enter_description">Introduce Descripción</string>
+    <string name="note_validation_error">Por favor introduce Nombre y Descripción.</string>
+
 </resources>
