@@ -1,10 +1,14 @@
 package com.mikeSTF.notesapp.navigation.destinations
 
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavType
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
+import com.mikeSTF.notesapp.ui.screens.noteDetail.NoteScreen
+import com.mikeSTF.notesapp.ui.viewmodels.SharedViewModel
 import com.mikeSTF.notesapp.utils.Action
 import com.mikeSTF.notesapp.utils.Constants.NOTE_ARGUMENT_KEY
 import com.mikeSTF.notesapp.utils.Constants.NOTE_SCREEN

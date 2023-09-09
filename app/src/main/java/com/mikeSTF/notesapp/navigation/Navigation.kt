@@ -7,6 +7,7 @@ import androidx.navigation.compose.NavHost
 import com.mikeSTF.notesapp.navigation.destinations.listComposable
 import com.mikeSTF.notesapp.navigation.destinations.noteComposable
 import com.mikeSTF.notesapp.navigation.destinations.splashComposable
+import com.mikeSTF.notesapp.ui.viewmodels.SharedViewModel
 import com.mikeSTF.notesapp.utils.Constants.LIST_SCREEN
 
 @Composable

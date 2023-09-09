@@ -11,10 +11,12 @@ import androidx.activity.compose.BackHandler
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Scaffold
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import com.mikeSTF.notesapp.R
 import com.mikeSTF.notesapp.data.models.Note
+import com.mikeSTF.notesapp.ui.viewmodels.SharedViewModel
 import com.mikeSTF.notesapp.utils.Action
 
 @SuppressLint("UnusedMaterialScaffoldPaddingParameter")

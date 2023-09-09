@@ -16,15 +16,18 @@ import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.rememberScaffoldState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.paging.LoadState
 import androidx.paging.compose.LazyPagingItems
+import androidx.paging.compose.collectAsLazyPagingItems
 import com.mikeSTF.notesapp.R
 import com.mikeSTF.notesapp.components.CustomLoading
 import com.mikeSTF.notesapp.data.models.Note
 import com.mikeSTF.notesapp.ui.theme.RedButton
+import com.mikeSTF.notesapp.ui.viewmodels.SharedViewModel
 import com.mikeSTF.notesapp.utils.Action
 import com.mikeSTF.notesapp.utils.AppBarState
 
