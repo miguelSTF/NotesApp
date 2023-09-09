@@ -57,12 +57,10 @@ class SharedViewModel @Inject constructor(
         try {
             viewModelScope.launch(Dispatchers.IO) {
                 notesRepository.getAllNotes().cachedIn(viewModelScope).collect { pagingData ->
-                    Log.d("Notes", pagingData.toString())
                     _allNotes.value = pagingData
                 }
             }
         } catch (e: Exception) {
-            Log.d("Notes", e.toString())
             _allNotes.value = PagingData.empty()
         }
     }

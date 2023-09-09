@@ -86,7 +86,6 @@ fun HandleListContent(
     notes: LazyPagingItems<Note>,
     navigateToNoteScreen: (taskId: Int) -> Unit
 ) {
-    Log.d("Notes_LOG", notes.loadState.toString())
     if (notes.loadState.refresh == LoadState.Loading) {
         CustomLoading()
     } else {

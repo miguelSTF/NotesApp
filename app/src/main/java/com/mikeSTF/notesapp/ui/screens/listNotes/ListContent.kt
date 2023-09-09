@@ -28,7 +28,6 @@ fun ListContent(
     notes: LazyPagingItems<Note>,
     navigateToNoteScreen: (taskId: Int) -> Unit
 ) {
-    Log.d("LazyPagingItems_LoadState_APPEND", notes.loadState.append.toString())
     LazyColumn(
         modifier = Modifier
             .fillMaxSize()
