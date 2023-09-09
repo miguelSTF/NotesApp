@@ -5,7 +5,7 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
 import androidx.compose.runtime.Composable
 
-private val AppColorPalette = darkColors(
+private val appColorPalette = darkColors(
     primary = BlackShade,
     secondary = White
 )
@@ -13,7 +13,7 @@ private val AppColorPalette = darkColors(
 @Composable
 fun NotesAppTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable () -> Unit) {
     MaterialTheme(
-        colors = AppColorPalette,
+        colors = appColorPalette,
         typography = Typography,
         shapes = Shapes,
         content = content

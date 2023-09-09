@@ -1,7 +1,6 @@
 package com.mikeSTF.notesapp.ui.screens.listNotes
 
 import android.annotation.SuppressLint
-import android.util.Log
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.ExtendedFloatingActionButton
 import androidx.compose.material.FloatingActionButtonDefaults

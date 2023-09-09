@@ -21,6 +21,8 @@ fun ListAppBar(
         AppBarState.CLOSED -> {
             DefaultListAppBar( )
         }
+
+        else -> { }
     }
 }
 

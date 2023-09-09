@@ -1,7 +1,6 @@
 package com.mikeSTF.notesapp.ui.viewmodels
 
 import android.app.Application
-import android.util.Log
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
@@ -27,7 +26,7 @@ class SharedViewModel @Inject constructor(
     private val notesRepository: NotesRepository,
 ) : ViewModel() {
 
-    private val _shouldShowSplashScreen = MutableStateFlow<Boolean>(true)
+    private val _shouldShowSplashScreen = MutableStateFlow(true)
     val shouldShowSplashScreen = _shouldShowSplashScreen.asStateFlow()
 
     val id: MutableState<Int> = mutableStateOf(0)
